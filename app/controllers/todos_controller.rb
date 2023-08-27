@@ -33,20 +33,7 @@ class TodosController < ApplicationController
       end
     end
   end
-  # def create
-  #   @todo = Todo.new(todo_params)
-
-  #   respond_to do |format|
-  #     if @todo.save
-  #       format.html { redirect_to todo_url(@todo), notice: "Todo was successfully created." }
-  #       format.json { render :show, status: :created, location: @todo }
-  #     else
-  #       format.html { render :new, status: :unprocessable_entity }
-  #       format.json { render json: @todo.errors, status: :unprocessable_entity }
-  #     end
-  #   end
-  # end
-
+  
   # PATCH/PUT /todos/1 or /todos/1.json
   def update
     respond_to do |format|
